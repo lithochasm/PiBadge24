@@ -1,7 +1,7 @@
 # PiBadge24
 Defcon 24 / Bsides PiBadge Stuff
 
-ToDo List:
+__ToDo List__
 
 Make full new distro for Pi's.
 Make stand alone installer?
@@ -21,6 +21,7 @@ Schedules! Print one out or download a pdf:
 
 
 __Parties__
+
 Defcon Parties: http://defconparties.com
 
 Key Parties:
