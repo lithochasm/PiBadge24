@@ -15,7 +15,7 @@ __ToDo List__
 
 
 
-__Defcon / Bsides Random info__
+## Defcon / Bsides Random info
 
 Schedules! Print one out or download a pdf:
 
