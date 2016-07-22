@@ -4,10 +4,15 @@ Defcon 24 / Bsides PiBadge Stuff
 __ToDo List__
 
 Make full new distro for Pi's.
+
 Make stand alone installer?
+
 Upload new videos
+
 Make script to play videos based on con i.e. have Bsides logo videos play during bsides, have DC logo vids play during DC
+
 ...
+
 Profit?
 
 
