@@ -1,19 +1,17 @@
-# PiBadge24
-Defcon 24 / Bsides PiBadge Stuff
+# PiBadge24 -- Defcon 24 / Bsides PiBadge Stuff
 
 __ToDo List__
 
-Make full new distro for Pi's.
-
-Make stand alone installer?
-
-Upload new videos
-
-Make script to play videos based on con i.e. have Bsides logo videos play during bsides, have DC logo vids play during DC
-
-...
-
-Profit?
+- [ ] Make updated Raspbian Distro
+  - [ ] Download Current Raspbian
+  - [ ] Roll in adafruit PiTFT+ driver
+  - [ ] Add script to install 3rd party tft drivers
+  - [ ] Autodetect tft type?
+  - [ ] Install omxPlayer
+  - [ ] Check out other video looper - https://github.com/timatron/videolooper-raspbian
+  - [ ] Configure day / con based video playback script
+  - [ ] Add "Touch to skip video function for touchscreen displays
+  - [ ] Upload new videos
 
 
 
