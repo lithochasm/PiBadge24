@@ -3,7 +3,7 @@
 __ToDo List__
 
 - [ ] Make updated Raspbian Distro
-  - [ ] Download Current Raspbian
+  - [x] Download Current Raspbian
   - [ ] Roll in adafruit PiTFT+ driver
   - [ ] Add script to install 3rd party tft drivers
   - [ ] Autodetect tft type?
