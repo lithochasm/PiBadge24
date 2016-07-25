@@ -3,6 +3,8 @@
 
 # partitioning:
 #    after dd if raspbian image, use up more of sd card..
+# https://adafruit-download.s3.amazonaws.com/2016-03-25_Jessie_Lite_PiTFT35r.zip
+
 gparted /dev/sdb #or wherever your disk is
     # increase size of root to 3G, still fits on 4G card?
 
