@@ -4,6 +4,8 @@ __ToDo List__
 
 - [ ] Make updated Raspbian Distro
   - [x] Download Current Adafruit Raspbian Lite w/ TFT Driver
+  - [x] download omxplayer + dependices packages
+  - [ ] make omxplayer install script
   - [ ] Add script to install 3rd party tft drivers?
   - [ ] Autodetect tft type?
   - [ ] Install omxPlayer
