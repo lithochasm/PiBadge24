@@ -20,3 +20,23 @@ service dhcpcd stop
 cp rc.local /etc/rc.local
 cp resolv.conf /etc/resolv.conf
 
+following guide from https://learn.adafruit.com/running-opengl-based-games-and-emulators-on-adafruit-pitft-display/3-dot-5-pitft..
+wget https://apt.adafruit.com/add-pin
+make sure add-pin isn't crazy.
+bash ./add-pin
+apt-get update
+apt-get install adafruit-pitft-helper raspberrypi-bootloader
+adafruit-pitft-helper -t 35r (permit console output if still using...)
+update /boot/config.txt per website dirs:
+    dtoverlay=pitft35r,rotate=90,speed=42000000,fps=30
+
+make sure git, build-essentials, cmake are installed
+git clone https://github.com/tasanakorn/rpi-fbcp
+    cd rpi-fbcp
+    mkdir build
+    cd build
+    cmake ..
+    make
+    install fbcp /usr/local/bin/fbcp
+
+
