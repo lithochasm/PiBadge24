@@ -3,9 +3,8 @@
 __ToDo List__
 
 - [ ] Make updated Raspbian Distro
-  - [x] Download Current Raspbian
-  - [ ] Roll in adafruit PiTFT+ driver
-  - [ ] Add script to install 3rd party tft drivers
+  - [x] Download Current Adafruit Raspbian Lite w/ TFT Driver
+  - [ ] Add script to install 3rd party tft drivers?
   - [ ] Autodetect tft type?
   - [ ] Install omxPlayer
   - [ ] Check out other video looper - https://github.com/timatron/videolooper-raspbian
@@ -13,7 +12,16 @@ __ToDo List__
   - [ ] Add "Touch to skip video function for touchscreen displays
   - [ ] Upload new videos
 
+__Video Ideas__
 
+The theme of Defcon this year is "Rise of the Machines" Im thinking of going with some crazy AI movie clips + random CG art 
+
+* Terminator
+* Hal 9000
+* Blade Runnner
+* DC Zia Logo Exploding
+* VLA Clips
+* Random www.beeple-crap.com
 
 ## Defcon / Bsides Random info
 
