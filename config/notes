@@ -1,6 +1,11 @@
 # 20160724 - toasty
 # various setup notes...
 
+# partitioning:
+#    after dd if raspbian image, use up more of sd card..
+gparted /dev/sdb #or wherever your disk is
+    # increase size of root to 3G, still fits on 4G card?
+
 # set keyboard correctly [as root...]  - 
 raspi-config
     5 [internationalisation]
@@ -10,6 +15,7 @@ raspi-config
 cp keyboard /etc/default/keyboard
 reboot #apparently needed
 
+# networking things...
 service dhcpcd stop
 cp rc.local /etc/rc.local
 cp resolv.conf /etc/resolv.conf
