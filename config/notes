@@ -1,0 +1,11 @@
+# 20160724 - toasty
+# various setup notes...
+
+# set keyboard correctly:
+[as root...] raspi-config
+    5 [internationalisation]
+        1 [Change Locale]
+        deselect en-GB
+        select en-US
+appears to need reboot to take effect
+
