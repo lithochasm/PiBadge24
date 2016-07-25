@@ -44,3 +44,5 @@ git clone https://github.com/tasanakorn/rpi-fbcp
     
 # disable console blanking, need to reboot after -- we may need this, need to check
 echo "consoleblank=0" >> /boot/cmdline.txt
+
+#enable SSH server?
