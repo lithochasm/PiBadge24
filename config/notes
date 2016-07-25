@@ -46,3 +46,5 @@ git clone https://github.com/tasanakorn/rpi-fbcp
 echo "consoleblank=0" >> /boot/cmdline.txt
 
 #enable SSH server?
+update-rc.d ssh enable
+invoke-rc.d ssh start
