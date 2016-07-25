@@ -40,5 +40,7 @@ git clone https://github.com/tasanakorn/rpi-fbcp
     cmake ..
     make
     install fbcp /usr/local/bin/fbcp
-
-
+    
+    
+# disable console blanking, need to reboot after -- we may need this, need to check
+echo "consoleblank=0" >> /boot/cmdline.txt
