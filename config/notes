@@ -1,11 +1,16 @@
 # 20160724 - toasty
 # various setup notes...
 
-# set keyboard correctly:
-[as root...] raspi-config
+# set keyboard correctly [as root...]  - 
+raspi-config
     5 [internationalisation]
         1 [Change Locale]
         deselect en-GB
         select en-US
-appears to need reboot to take effect
+cp keyboard /etc/default/keyboard
+reboot #apparently needed
+
+service dhcpcd stop
+cp rc.local /etc/rc.local
+cp resolv.conf /etc/resolv.conf
 
