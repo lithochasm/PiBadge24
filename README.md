@@ -6,12 +6,16 @@ __ToDo List__
   - [x] Download Current Adafruit Raspbian Lite w/ TFT Driver
   - [x] download omxplayer + dependices packages
   - [ ] make omxplayer install script
-  - [ ] Add script to install 3rd party tft drivers?
-  - [ ] Autodetect tft type?
-  - [ ] Install omxPlayer
+  - [x] make / borrow script to resize partition
+  - [ ] make script to change kb layout / locale
+  - [x] make script to enable ssh
+  - [ ] make network config script?
+  - [ ] make script to change refresh rate of display?
+  - [ ] make fbcp install script? 
   - [ ] Check out other video looper - https://github.com/timatron/videolooper-raspbian
   - [ ] Configure day / con based video playback script
   - [ ] Add "Touch to skip video function for touchscreen displays
+  - [ ] Optional: Add script to install 3rd party tft drivers?
   - [ ] Upload new videos
 
 __Video Ideas__
@@ -34,7 +38,6 @@ Schedules! Print one out or download a pdf:
 --Defcon Schedule: https://defcon.org/html/defcon-24/dc-24-schedule.html
 
 --Defcon Bands / music: https://defcon.org/html/defcon-24/dc-24-entertainment.html
-
 
 
 __Parties__
