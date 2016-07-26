@@ -6,6 +6,7 @@ __ToDo List__
   - [x] Download Current Adafruit Raspbian Lite w/ TFT Driver
   - [x] download omxplayer + dependices packages
   - [x] make omxplayer install script - http://omxplayer.sconde.net/
+  - [ ] make mplayer install package
   - [x] make / borrow script to resize partition
   - [x] make script to change kb layout / locale
   - [x] make script to enable ssh
@@ -26,6 +27,17 @@ Optional Tasks
   - [ ] custom boot logo / image?
   - [ ] dosbox? Windows 3.1?
 
+__Video Players / Issues__
+There are two video players that do not require X and work well on the pi. Those are:
+mplayer 2
+omxplayer
+
+Mplayer2 can output directly to an arbitrary framebuffer eg. /dev/fb1 which is where our TFT lives. Omxplayer will only output to /dev/fb0
+so you need to use a tool to copy the memory of fb0 to fb1. There are two tools that do this. fbcp and raspi2fb. Raspi2fb is supposed to be faster, but I have
+had issues getting it to work.
+
+fbcp: lower cpu usage
+raspi2fb: higher cpu usage, but video seems smoother
 __Video Ideas__
 
 The theme of Defcon this year is "Rise of the Machines" Im thinking of going with some crazy AI movie clips + random CG art 
