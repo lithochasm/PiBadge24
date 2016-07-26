@@ -3,7 +3,7 @@
 __ToDo List__
 
   
-  - [x] Download Current Adafruit Raspbian Lite w/ TFT Driver
+  - [x] Download Current Adafruit Raspbian Lite w/ TFT Driver https://learn.adafruit.com/adafruit-pitft-3-dot-5-touch-screen-for-raspberry-pi/easy-install
   - [x] download omxplayer + dependices packages
   - [x] make omxplayer install script - http://omxplayer.sconde.net/
   - [x] make mplayer install package
