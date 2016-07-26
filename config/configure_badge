@@ -66,9 +66,10 @@ dpkg -i libsmbclient_2%3a4.2.10+dfsg-0+deb8u3_armhf.deb
 dpkg -i omxplayer_0.3.7\~git20160713\~66f9076_armhf.deb
 
 #install fbcp
+dpkg -i libbsd-dev_0.7.0-2_armhf.deb
 
 #install other
-
+dpkg -i fbi_2.09-1_armhf.deb  ## Boot logo http://www.edv-huber.com/index.php/problemloesungen/15-custom-splash-screen-for-raspberry-pi-raspbian
 ## Setup video auto run at boot ##
 
 ## Disable this config script if all is good ##
