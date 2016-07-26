@@ -15,8 +15,13 @@ __ToDo List__
   - [ ] Check out other video looper - https://github.com/timatron/videolooper-raspbian
   - [ ] Configure day / con based video playback script
   - [ ] Add "Touch to skip video function for touchscreen displays
-  - [ ] Optional: Add script to install 3rd party tft drivers?
   - [ ] Upload new videos
+  
+Optional Tasks
+  - [ ] Optional: Add script to install 3rd party tft drivers?
+  - [ ] Make "Party Mode"
+  - [ ] Make quake3 package
+  - [ ] metasploit framwork? 
 
 __Video Ideas__
 
