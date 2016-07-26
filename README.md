@@ -5,14 +5,14 @@ __ToDo List__
   - [ ] Make updated Raspbian Distro
   - [x] Download Current Adafruit Raspbian Lite w/ TFT Driver
   - [x] download omxplayer + dependices packages
-  - [ ] make omxplayer install script
+  - [x] make omxplayer install script
   - [x] make / borrow script to resize partition
   - [x] make script to change kb layout / locale
   - [x] make script to enable ssh
   - [x] make network config script
   - [ ] make script to change refresh rate of display?
-  - [ ] make fbcp install script? 
-  - [ ] Check out other video looper - https://github.com/timatron/videolooper-raspbian
+  - [x] make fbcp install script? 
+  - [x] Check out other video looper - https://github.com/timatron/videolooper-raspbian
   - [ ] Configure day / con based video playback script
   - [ ] Add "Touch to skip video function for touchscreen displays
   - [ ] Upload new videos
