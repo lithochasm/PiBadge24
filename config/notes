@@ -8,7 +8,9 @@
 gparted /dev/sdb #or wherever your disk is
     # increase size of root to 3G, still fits on 4G card?
 
-# set keyboard correctly [as root...]  - 
+# set locale/keyboard correctly [as root...]  - 
+cp locale.gen /etc/locale.gen
+/usr/sbin/locale-gen
 cp keyboard /etc/default/keyboard
 dpkg-reconfigure -f noninteractive keyboard-configuration
 reboot #apparently needed
