@@ -36,6 +36,9 @@ The theme of Defcon this year is "Rise of the Machines" Im thinking of going wit
 * DC Zia Logo Exploding
 * VLA Clips
 * Random www.beeple-crap.com
+* Ghost in the Shell
+* The Matrix
+* Systems crashing anthology?
 
 ## Defcon / Bsides Random info
 
