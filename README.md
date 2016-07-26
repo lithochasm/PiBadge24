@@ -2,7 +2,7 @@
 
 __ToDo List__
 
-- [ ] Make updated Raspbian Distro
+  - [ ] Make updated Raspbian Distro
   - [x] Download Current Adafruit Raspbian Lite w/ TFT Driver
   - [x] download omxplayer + dependices packages
   - [ ] make omxplayer install script
@@ -15,8 +15,16 @@ __ToDo List__
   - [ ] Check out other video looper - https://github.com/timatron/videolooper-raspbian
   - [ ] Configure day / con based video playback script
   - [ ] Add "Touch to skip video function for touchscreen displays
-  - [ ] Optional: Add script to install 3rd party tft drivers?
   - [ ] Upload new videos
+  
+Optional Tasks
+  - [ ] Optional: Add script to install 3rd party tft drivers?
+  - [ ] Make "Party Mode"
+  - [ ] Make quake3 package
+  - [ ] make doom package
+  - [ ] metasploit framwork? 
+  - [ ] custom boot logo / image?
+  - [ ] dosbox? Windows 3.1?
 
 __Video Ideas__
 
