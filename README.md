@@ -18,7 +18,7 @@ __ToDo List__
   - [ ] Upload new videos
   
 Optional Tasks
-  - [ ] Optional: Add script to install 3rd party tft drivers?
+  - [ ] Add script to install 3rd party tft drivers -- https://github.com/notro/fbtft
   - [ ] Make "Party Mode"
   - [ ] Make quake3 package
   - [ ] make doom package
