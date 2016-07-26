@@ -104,8 +104,6 @@ EOF
 echo
 echo #####################################################################
 echo System is now ready to resize your system.  A REBOOT IS REQUIRED NOW!
-echo "Press ENTER to reboot : \c"
-read aok
 echo REBOOTING....
 /bin/sync
 /sbin/reboot

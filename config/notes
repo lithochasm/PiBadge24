@@ -44,5 +44,8 @@ git clone https://github.com/tasanakorn/rpi-fbcp
 echo "consoleblank=0" >> /boot/cmdline.txt
 
 #enable SSH server?
-update-rc.d ssh enable
-invoke-rc.d ssh start
+systemctl ssh enable
+systemctl ssh start
+
+#omxplayer cmdline flags
+omxplayer --loop --fps 24 --no-osd -z --aspect-mode stretch <videos>
