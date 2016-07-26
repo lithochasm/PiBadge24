@@ -7,9 +7,9 @@ __ToDo List__
   - [x] download omxplayer + dependices packages
   - [ ] make omxplayer install script
   - [x] make / borrow script to resize partition
-  - [ ] make script to change kb layout / locale
+  - [x] make script to change kb layout / locale
   - [x] make script to enable ssh
-  - [ ] make network config script?
+  - [x] make network config script
   - [ ] make script to change refresh rate of display?
   - [ ] make fbcp install script? 
   - [ ] Check out other video looper - https://github.com/timatron/videolooper-raspbian
