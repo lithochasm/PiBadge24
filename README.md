@@ -2,7 +2,7 @@
 
 __ToDo List__
 
-- [ ] Make updated Raspbian Distro
+  - [ ] Make updated Raspbian Distro
   - [x] Download Current Adafruit Raspbian Lite w/ TFT Driver
   - [x] download omxplayer + dependices packages
   - [ ] make omxplayer install script
