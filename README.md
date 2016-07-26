@@ -5,7 +5,7 @@ __ToDo List__
   - [ ] Make updated Raspbian Distro
   - [x] Download Current Adafruit Raspbian Lite w/ TFT Driver
   - [x] download omxplayer + dependices packages
-  - [x] make omxplayer install script
+  - [x] make omxplayer install script - http://omxplayer.sconde.net/
   - [x] make / borrow script to resize partition
   - [x] make script to change kb layout / locale
   - [x] make script to enable ssh
