@@ -2,42 +2,45 @@
 
 __ToDo List__
 
-  - [ ] Make updated Raspbian Distro
+  
   - [x] Download Current Adafruit Raspbian Lite w/ TFT Driver
   - [x] download omxplayer + dependices packages
   - [x] make omxplayer install script - http://omxplayer.sconde.net/
-  - [ ] make mplayer install package
+  - [x] make mplayer install package
   - [x] make / borrow script to resize partition
   - [x] make script to change kb layout / locale
   - [x] make script to enable ssh
   - [x] make network config script
-  - [ ] make script to change refresh rate of display?
+  - [x] make script to change refresh rate of display?
   - [x] make fbcp install script? 
   - [x] Check out other video looper - https://github.com/timatron/videolooper-raspbian
-  - [ ] Configure day / con based video playback script
-  - [ ] Add "Touch to skip video function for touchscreen displays
   - [ ] Upload new videos
+  - [ ] Make installer script
+  - [ ] Make updated Generic TFT Raspbian Image
+  - [ ] Make updated PiTFT Image
   
 Optional Tasks
-  - [ ] Add script to install 3rd party tft drivers -- https://github.com/notro/fbtft
+  - [ ] Configure day / con based video playback script
+  - [ ] Add "Touch to skip video function for touchscreen displays
   - [ ] Make "Party Mode"
   - [ ] Make quake3 package
   - [ ] make doom package
   - [ ] metasploit framwork? 
   - [ ] custom boot logo / image?
   - [ ] dosbox? Windows 3.1?
+  - [ ] mesh networking
 
 __Video Players / Issues__
+
 There are two video players that do not require X and work well on the pi. Those are:
-mplayer 2
+mplayer2
 omxplayer
 
-Mplayer2 can output directly to an arbitrary framebuffer eg. /dev/fb1 which is where our TFT lives. Omxplayer will only output to /dev/fb0
-so you need to use a tool to copy the memory of fb0 to fb1. There are two tools that do this. fbcp and raspi2fb. Raspi2fb is supposed to be faster, but I have
-had issues getting it to work.
+Mplayer2 can output directly to an arbitrary framebuffer eg. /dev/fb1 which is where our TFT lives. Omxplayer will only output to /dev/fb0 so you need to use a tool to copy the memory of fb0 to fb1. There are two tools that do this. fbcp and raspi2fb. Raspi2fb is supposed to be faster, but I have had issues getting it to work.
 
-fbcp: lower cpu usage
-raspi2fb: higher cpu usage, but video seems smoother
+rpi-fbcp: lower cpu usage 
+raspi2fb: higher cpu usage, but video seems smoother https://github.com/AndrewFromMelbourne/raspi2fb
+
 __Video Ideas__
 
 The theme of Defcon this year is "Rise of the Machines" Im thinking of going with some crazy AI movie clips + random CG art 
@@ -51,6 +54,8 @@ The theme of Defcon this year is "Rise of the Machines" Im thinking of going wit
 * Ghost in the Shell
 * The Matrix
 * Systems crashing anthology?
+* Hackers
+* Neon Genesis Evangellion
 
 ## Defcon / Bsides Random info
 
