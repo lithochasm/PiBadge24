@@ -21,7 +21,10 @@ Optional Tasks
   - [ ] Optional: Add script to install 3rd party tft drivers?
   - [ ] Make "Party Mode"
   - [ ] Make quake3 package
+  - [ ] make doom package
   - [ ] metasploit framwork? 
+  - [ ] custom boot logo / image?
+  - [ ] dosbox? Windows 3.1?
 
 __Video Ideas__
 
