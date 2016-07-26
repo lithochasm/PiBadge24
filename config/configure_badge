@@ -1,11 +1,43 @@
 #!/usr/bin/env bash
 
 
+#***********************************************#
+#		  PiBadge 24			#
+#		July 25th 2016			#
+#						#
+#          A LithoChasm / Toastyguy / 		#
+#   Your Name Here if you Contribute Production #
+#						#
+#   	    Defcon 24 / Bsides LV 8		#
+#***********************************************#
 
 
-#
-## Check if first run
+## Check if being run as root
+if [ "$(whoami)" != "root" ]; then
+  echo "Error 404, root user not found"
+  exit 1
+fi
 
+
+## Check if first run ##
+
+
+## Setup Locale ##
+
+## Setup Keyboard ##
+
+## Setup Network ##
+# set fixed ip for en0?
+# set dhcp for wlan0/1 ?
+
+## Install Software ##
+#install omxplayer
+#install fbcp
+#install other
+
+## Setup video auto run at boot ##
+
+## Disable this config script if all is good ##
 
 
 exit 0  ## End cleanly
