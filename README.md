@@ -35,6 +35,10 @@ __From Scratch Install Steps__
 * Download the Adafruit PiTFT+ lite image: https://learn.adafruit.com/adafruit-pitft-3-dot-5-touch-screen-for-raspberry-pi/easy-install
 * Burn it to a sd card
 * log in, connect to a network, update packages "sudo aptitude update && sudo aptitude upgrade"
+* sudo aptitude install git
+* git clone this repo
+* run installer?
+* Profit?
 
 __Video Players / Issues__
 
