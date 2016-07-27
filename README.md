@@ -3,7 +3,7 @@
 __ToDo List__
 
   
-  - [x] Download Current Adafruit Raspbian Lite w/ TFT Driver https://learn.adafruit.com/adafruit-pitft-3-dot-5-touch-screen-for-raspberry-pi/easy-install
+  - [x] Download Current Adafruit Raspbian Lite w/ TFT Driver
   - [x] download omxplayer + dependices packages
   - [x] make omxplayer install script - http://omxplayer.sconde.net/
   - [x] make mplayer install package
@@ -29,6 +29,12 @@ Optional Tasks
   - [ ] custom boot logo / image?
   - [ ] dosbox? Windows 3.1?
   - [ ] mesh networking
+
+
+__From Scratch Install Steps__
+Download the Adafruit PiTFT+ lite image: https://learn.adafruit.com/adafruit-pitft-3-dot-5-touch-screen-for-raspberry-pi/easy-install
+Burn it to a sd card
+log in, connect to a network, update packages "sudo aptitude update && sudo aptitude upgrade"
 
 __Video Players / Issues__
 
