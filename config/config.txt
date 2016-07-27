@@ -28,6 +28,11 @@ hdmi_force_hotplug=1
 #hdmi_group=1
 #hdmi_mode=1
 
+######Custom HDMI Resolution
+hdmi_cvt=480 320 60 1 0 0 0
+hdmi_group=2
+hdmi_mode=87
+
 # uncomment to force a HDMI mode rather than DVI. This can make audio work in
 # DMT (computer monitor) modes
 #hdmi_drive=2
@@ -40,7 +45,7 @@ hdmi_force_hotplug=1
 #sdtv_mode=2
 
 #uncomment to overclock the arm. 700 MHz is the default.
-arm_freq=850
+arm_freq=700
 
 # Uncomment some or all of these to enable the optional hardware interfaces
 #dtparam=i2c_arm=on

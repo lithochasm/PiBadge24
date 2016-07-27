@@ -3,4 +3,16 @@ route add default gw 192.168.0.1
 
 cp /root/resolv.conf /etc/
 
+## Print logo
+figlet -f big DC ZIA
+
+## Print the IP address
+_IP=$(hostname -I) || true
+if [ "$_IP" ]; then
+    printf "IP address %s\n" "$_IP"
+fi
+
+#raspi2fb --daemon
+#run videos
+
 exit 0

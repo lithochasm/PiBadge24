@@ -30,12 +30,12 @@ fi
 
 
 ## Setup Keyboard ##
-#cp locale.gen /etc/locale.gen
-#/usr/sbin/locale-gen
-#cp keyboard /etc/default/keyboard
-#dpkg-reconfigure -f noninteractive keyboard-configuration
+cp locale.gen /etc/locale.gen
+/usr/sbin/locale-gen
+cp keyboard /etc/default/keyboard
+dpkg-reconfigure -f noninteractive keyboard-configuration
 
-## Setup Network ##i
+## Setup Network ##
 if cp interfaces /etc/network; then
     echo "* Network Config Succedded"
 else
@@ -51,28 +51,22 @@ else
   systemctl ssh start
 fi
 
-## Install Software ##
-#install omxplayer
-dpkg -i fonts-freefont-ttf_20120503-4_all.deb
-dpkg -i libpcre3_2%3a8.35-3.3+deb8u4_armhf.deb
-dpkg -i libtevent0_0.9.25-0+deb8u1_armhf.deb
-dpkg -i libntdb1_1.0-5_armhf.deb
-dpkg -i libtdb1_1.3.6-0+deb8u1_armhf.deb
-dpkg -i libldb1_2%3a1.1.20-0+deb8u1_armhf.deb
-dpkg -i python-talloc_2.1.2-0+deb8u1_armhf.deb
-dpkg -i samba-libs_2%3a4.2.10+dfsg-0+deb8u3_armhf.deb
-dpkg -i libssh-4_0.6.3-4+deb8u2_armhf.deb
-dpkg -i libsmbclient_2%3a4.2.10+dfsg-0+deb8u3_armhf.deb
-dpkg -i omxplayer_0.3.7\~git20160713\~66f9076_armhf.deb
 
-#install fbcp
-dpkg -i libbsd-dev_0.7.0-2_armhf.deb
+## Setup console no blanking
+echo " Disabling console blanking"
+echo "consoleblank=0" >> /boot/cmdline.txt
+i
 
-#install other
-dpkg -i fbi_2.09-1_armhf.deb  ## Boot logo http://www.edv-huber.com/index.php/problemloesungen/15-custom-splash-screen-for-raspberry-pi-raspbian
-## Setup video auto run at boot ##
+## Setup Boot options
+echo " Setting up boot options"
+cp config.txt /boot/
 
-## Disable this config script if all is good ##
+## Setup auto run at boot ##
+cp rc.local /etc/
 
+## Resize Drive
+echo " Resizing drive, will reboot when finished"
+rm /etc/badgeConfigured
+##resize
 
 exit 0  ## End cleanly

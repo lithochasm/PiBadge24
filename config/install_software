@@ -1,0 +1,27 @@
+## Install Software ##
+#install omxplayer
+dpkg -i fonts-freefont-ttf_20120503-4_all.deb
+dpkg -i libpcre3_2%3a8.35-3.3+deb8u4_armhf.deb
+dpkg -i libtevent0_0.9.25-0+deb8u1_armhf.deb
+dpkg -i libntdb1_1.0-5_armhf.deb
+dpkg -i libtdb1_1.3.6-0+deb8u1_armhf.deb
+dpkg -i libldb1_2%3a1.1.20-0+deb8u1_armhf.deb
+dpkg -i python-talloc_2.1.2-0+deb8u1_armhf.deb
+dpkg -i samba-libs_2%3a4.2.10+dfsg-0+deb8u3_armhf.deb
+dpkg -i libssh-4_0.6.3-4+deb8u2_armhf.deb
+dpkg -i libsmbclient_2%3a4.2.10+dfsg-0+deb8u3_armhf.deb
+dpkg -i omxplayer_0.3.7\~git20160713\~66f9076_armhf.deb
+
+#install fbcp and raspi2fb
+cp ../packages/fbcp /usr/local/bin
+cp ../packages/raspi2fb /usr/local/bin
+
+#install other
+
+dpkg -i libbsd-dev_0.7.0-2_armhf.deb
+dpkg -i fbi_2.09-1_armhf.deb  ## Boot logo http://www.edv-huber.com/index.php/problemloesungen/15-custom-splash-screen-for-raspberry-pi-raspbian
+dpkg -i fbset_2.1-28_armhf.deb
+dpkg -i figlet_2.2.5-2_armhf.deb
+dpkg -i lolcat_42.0.99-1_all.deb
+dpkg -i cowsay_3.03+dfsg1-10_all.deb 
+

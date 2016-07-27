@@ -1,1 +1,1 @@
-aptitude install zsh htop mplayer2 wget vim  build-essential cmatrix nmap 
+aptitude install -y git zsh htop mplayer2 wget vim build-essential cmatrix nmap 
