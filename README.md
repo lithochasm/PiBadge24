@@ -33,13 +33,19 @@ Optional Tasks
 
 
 __From Scratch Install Steps__
-* Download the Adafruit PiTFT+ lite image: https://learn.adafruit.com/adafruit-pitft-3-dot-5-touch-screen-for-raspberry-pi/easy-install
+No image? No problem mon!
+* If you are using a PiTFT+ Download the Adafruit PiTFT+ lite image: https://learn.adafruit.com/adafruit-pitft-3-dot-5-touch-screen-for-raspberry-pi/easy-install
+* Using a DToverlay supported image: https://downloads.raspberrypi.org/raspbian_lite_latest 
 * Burn it to a sd card
 * log in, connect to a network, update packages "sudo aptitude update && sudo aptitude upgrade"
 * sudo aptitude install git
-* git clone this repo
-* run installer -- dev setup, software setup, configure
+* git clone https://github.com/lithochasm/PiBadge24.git
+* run PiBadge/config/dev_configure
+* run PiBadge/config/install_software
+* run PiBadge/config/configure_badge
+* Optional if you want to resize your partition to fill your sd card run PiBadge/config/rpi-wiggle
 * Profit?
+* Note you may need to manually set ip's for your home environment
 
 __Video Players / Issues__
 
