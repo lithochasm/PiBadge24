@@ -1,10 +1,10 @@
 ifconfig eth0 192.168.0.2 netmask 255.255.255.0
 route add default gw 192.168.0.1
-
-cp /root/resolv.conf /etc/
-
+clear &
+echo "\n" &
 ## Print logo
-figlet -f big DC ZIA
+figlet -f big DC ZIA &
+echo "\n"
 
 ## Print the IP address
 _IP=$(hostname -I) || true
@@ -12,7 +12,8 @@ if [ "$_IP" ]; then
     printf "IP address %s\n" "$_IP"
 fi
 
-#raspi2fb --daemon
+raspi2fb --daemon &
 #run videos
+omxplayer --loop --fps 24 --no-osd -z --aspect-mode stretch /home/pi/PiBadge24/videos/exhaust_test.mp4 2>&1 &
 
 exit 0

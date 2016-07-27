@@ -43,6 +43,8 @@ cp keyboard /etc/default/keyboard
 dpkg-reconfigure -f noninteractive keyboard-configuration
 
 ## Setup Network ##
+echo "* Setting up the intarwebs"
+cp resolv.conf /etc/
 if cp interfaces /etc/network; then
     echo "* Network Config Succedded"
 else
