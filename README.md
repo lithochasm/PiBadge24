@@ -15,11 +15,12 @@ __ToDo List__
   - [x] make fbcp install script? 
   - [x] Check out other video looper - https://github.com/timatron/videolooper-raspbian
   - [ ] Upload new videos
-  - [ ] Make installer script
+  - [x] Make installer script
   - [ ] Make updated Generic TFT Raspbian Image
   - [ ] Make updated PiTFT Image
   
 Optional Tasks
+  - [ ] Change Console font
   - [ ] Configure day / con based video playback script
   - [ ] Add "Touch to skip video function for touchscreen displays
   - [ ] Make "Party Mode"
@@ -37,7 +38,7 @@ __From Scratch Install Steps__
 * log in, connect to a network, update packages "sudo aptitude update && sudo aptitude upgrade"
 * sudo aptitude install git
 * git clone this repo
-* run installer?
+* run installer -- dev setup, software setup, configure
 * Profit?
 
 __Video Players / Issues__
