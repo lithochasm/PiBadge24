@@ -58,7 +58,7 @@ arm_freq=700
 # Additional overlays and parameters are documented /boot/overlays/README
 
 # Enable audio (loads snd_bcm2835)
-dtparam=audio=off
+dtparam=audio=on
 
 # --- added by adafruit-pitft-helper Thu Mar 31 15:44:28 UTC 2016 ---
 [pi1]
@@ -71,7 +71,5 @@ dtparam=i2c1=on
 dtparam=i2c_arm=on
 dtoverlay=pitft35r,rotate=90,speed=48000000, fps=50
 # --- end adafruit-pitft-helper Thu Mar 31 15:44:28 UTC 2016 ---
-core_freq=250
-sdram_freq=400
-over_voltage=0
+
 gpu_mem=64

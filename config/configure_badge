@@ -30,8 +30,15 @@ fi
 
 
 ## Setup Keyboard ##
+echo "* Setting Locale -- Murica. Fuck Yeah."
 cp locale.gen /etc/locale.gen
-/usr/sbin/locale-gen
+
+export LANGUAGE=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+locale-gen en_US.UTF-8
+dpkg-reconfigure -f noninteractive locales
+
 cp keyboard /etc/default/keyboard
 dpkg-reconfigure -f noninteractive keyboard-configuration
 
@@ -53,20 +60,24 @@ fi
 
 
 ## Setup console no blanking
-echo " Disabling console blanking"
+echo "* Disabling console blanking"
 echo "consoleblank=0" >> /boot/cmdline.txt
-i
 
 ## Setup Boot options
-echo " Setting up boot options"
+echo "* Setting up boot options"
 cp config.txt /boot/
 
 ## Setup auto run at boot ##
+echo "* Installing Auto Run"
 cp rc.local /etc/
 
 ## Resize Drive
-echo " Resizing drive, will reboot when finished"
-rm /etc/badgeConfigured
+echo "* Resizing drive, will reboot when finished"
+
+if [ -f $FILE ]; then
+  rm /etc/badgeConfigured
+fi
+
 ##resize
 
 exit 0  ## End cleanly
