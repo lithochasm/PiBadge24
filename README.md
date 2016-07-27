@@ -20,7 +20,7 @@ __ToDo List__
   - [ ] Make updated PiTFT Image
   
 Optional Tasks
-  - [ ] Change Console font
+  - [x] Change Console font
   - [ ] Configure day / con based video playback script
   - [ ] Add "Touch to skip video function for touchscreen displays
   - [ ] Make "Party Mode"
