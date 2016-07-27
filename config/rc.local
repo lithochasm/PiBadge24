@@ -13,6 +13,7 @@ if [ "$_IP" ]; then
     printf "IP address %s\n" "$_IP"
 fi
 
+setterm -console off > /dev/tty0
 raspi2fb --daemon &
 #run videos
 omxplayer --loop --fps 24 --no-osd -z --aspect-mode stretch /home/pi/PiBadge24/videos/exhaust_test.mp4 &
