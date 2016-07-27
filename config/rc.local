@@ -1,10 +1,11 @@
-ifconfig eth0 192.168.0.2 netmask 255.255.255.0
-route add default gw 192.168.0.1
-clear &
-echo "\n" &
-## Print logo
-figlet -f big DC ZIA &
-echo "\n"
+#!/bin/sh
+
+exec 2> /tmp/rc.local.log  # send stderr from rc.local to a log file
+exec 1>&2                      # send stdout to the same log file
+set -x                         # tell sh to display commands before execution
+
+# ifconfig eth0 192.168.0.2 netmask 255.255.255.0
+# route add default gw 192.168.0.1
 
 ## Print the IP address
 _IP=$(hostname -I) || true
@@ -14,6 +15,6 @@ fi
 
 raspi2fb --daemon &
 #run videos
-omxplayer --loop --fps 24 --no-osd -z --aspect-mode stretch /home/pi/PiBadge24/videos/exhaust_test.mp4 2>&1 &
+omxplayer --loop --fps 24 --no-osd -z --aspect-mode stretch /home/pi/PiBadge24/videos/exhaust_test.mp4 &
 
 exit 0

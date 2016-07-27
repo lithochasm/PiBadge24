@@ -44,7 +44,7 @@ dpkg-reconfigure -f noninteractive keyboard-configuration
 
 ## Setup Network ##
 echo "* Setting up the intarwebs"
-cp resolv.conf /etc/
+cp resolv.conf /etc
 if cp interfaces /etc/network; then
     echo "* Network Config Succedded"
 else
@@ -67,11 +67,11 @@ echo "consoleblank=0" >> /boot/cmdline.txt
 
 ## Setup Boot options
 echo "* Setting up boot options"
-cp config.txt /boot/
+cp config.txt /boot
 
 ## Setup auto run at boot ##
 echo "* Installing Auto Run"
-cp rc.local /etc/
+cp rc.local /etc
 
 ## Resize Drive
 echo "* Resizing drive, will reboot when finished"
