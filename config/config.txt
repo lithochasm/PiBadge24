@@ -69,7 +69,8 @@ device_tree=bcm2709-rpi-2-b.dtb
 dtparam=spi=on
 dtparam=i2c1=on
 dtparam=i2c_arm=on
-dtoverlay=pitft35r,rotate=90,speed=48000000, fps=50
+#dtoverlay=pitft35r,rotate=90,speed=60000000,fps=50
+dtoverlay=pitft35r,rotate=90,speed=80000000,fps=60
 # --- end adafruit-pitft-helper Thu Mar 31 15:44:28 UTC 2016 ---
 
 gpu_mem=64
