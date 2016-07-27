@@ -45,7 +45,7 @@ hdmi_mode=87
 #sdtv_mode=2
 
 #uncomment to overclock the arm. 700 MHz is the default.
-arm_freq=700
+#arm_freq=700
 
 # Uncomment some or all of these to enable the optional hardware interfaces
 #dtparam=i2c_arm=on
@@ -72,5 +72,8 @@ dtparam=i2c_arm=on
 #dtoverlay=pitft35r,rotate=90,speed=60000000,fps=50
 dtoverlay=pitft35r,rotate=90,speed=80000000,fps=60
 # --- end adafruit-pitft-helper Thu Mar 31 15:44:28 UTC 2016 ---
+
+#dtparam=spi=on
+#dtoverlay=tinylcd35,speed=48000000,fps=50
 
 gpu_mem=64
