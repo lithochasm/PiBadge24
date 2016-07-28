@@ -1,0 +1,36 @@
+    #!/bin/bash
+
+    PLAYER="omxplayer --fps 24 --no-osd -z --aspect-mode stretch "
+    PLAYLIST="play.lst"
+
+    # Play arguments on command line if they exist
+    if [ $# -ne 0 ]
+    then
+   echo "Enter files to play :" "$file"
+        for file
+        do
+            $PLAYER "$file"
+        done
+        exit
+    fi
+
+    # Play the playlist if it exists
+    if [ -e "$PLAYLIST" ]
+    then
+        IFS=$'\012'   # IFS: Internal field separator ; \12=form feed
+        for file in $(cat "$PLAYLIST")
+        do
+   IFS=$' \t\n'
+      echo "File : " "$file"
+      echo "Command : " $PLAYER "$file"
+      $PLAYER "$file"
+        done
+
+    # Play the directory structure otherwise
+    else
+       echo "Playing all in Directory"
+        for file in *
+        do
+           $PLAYER "$file"
+        done
+    fi
