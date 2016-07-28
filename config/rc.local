@@ -14,8 +14,11 @@ if [ "$_IP" ]; then
 fi
 
 setterm -console off > /dev/tty0
+clear > /dev/tty0
+
 raspi2fb --daemon &
 #run videos
 omxplayer --loop --fps 24 --no-osd -z --aspect-mode stretch /home/pi/PiBadge24/videos/exhaust_test.mp4 &
 
+clear > /dev/tty0
 exit 0
