@@ -14,7 +14,7 @@ __ToDo List__
   - [x] make script to change refresh rate of display?
   - [x] make fbcp install script? 
   - [x] Check out other video looper - https://github.com/timatron/videolooper-raspbian
-  - [ ] Upload new videos
+  - [ ] Upload new videos // Git File Size Limit may prevent this
   - [x] Make installer script
   - [ ] Make updated Generic TFT Raspbian Image
   - [ ] Make updated PiTFT Image
@@ -73,6 +73,10 @@ The theme of Defcon this year is "Rise of the Machines" Im thinking of going wit
 * Systems crashing anthology?
 * Hackers
 * Neon Genesis Evangellion
+* Johnny Mnemonic
+* Beyond The Minds Eye
+* 2001
+
 
 ## Defcon / Bsides Random info
 
