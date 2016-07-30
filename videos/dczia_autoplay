@@ -7,7 +7,7 @@ $DEFAULT
 # $DEFCON
 
 ##Turns off cursor blink on display
-setterm -console off > /dev/tty0
+setterm -cursor off > /dev/tty0
 
 ##Clear the term before firing up omxplayer
 clear > /dev/tty0
@@ -20,7 +20,7 @@ then
   ## Play some videos
   omxplayer --loop --fps 24 --no-osd -z --aspect-mode stretch /home/pi/PiBadge24/videos/default.mp4 &
   clear > /dev/tty0
-  setterm -console on > /dev/tty0
+  # setterm -cursor on > /dev/tty0
 
 else
   echo "Nothing"
