@@ -1,0 +1,20 @@
+# 20160730 - toasty
+#   lifted from https://www.raspberrypi.org/forums/viewtopic.php?f=78&t=18853
+
+# NOTE: assumes you have roughly already built-to-spec PiBadge24 with fbcp
+
+cd /opt/src
+git clone https://github.com/raspberrypi/quake3.git
+cd quake3
+vi build.sh
+    modify:
+        ARM_LIBS=/opt/vc/lib
+        INCLUDES="-I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads"
+        # CROSS_COMPILE=bcm2708-
+./build.sh
+cd build/release-linux-arm
+wget http://dl.dropbox.com/u/1816557/Q3%20Demo%20Paks.zip
+unzip Q3\ Demo\ Paks.zip #should extrack pak files to baseq3 dir
+./ioquake3.arm
+# override moral objections, accept with no cd key
+
