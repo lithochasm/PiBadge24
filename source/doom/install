@@ -1,0 +1,5 @@
+tar -zxvf chocolate-doom-2.2.1.tar.gz
+cd chocolate-doom-2.2.1
+./configure
+make
+make install
