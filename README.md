@@ -16,17 +16,17 @@ __ToDo List__
   - [x] Check out other video looper - https://github.com/timatron/videolooper-raspbian
   - [ ] Upload new videos // Git File Size Limit may prevent this
   - [x] Make installer script
-  - [ ] Make updated Generic TFT Raspbian Image
-  - [ ] Make updated PiTFT Image
+  - [x] Make updated Generic TFT Raspbian Image
+  - [x] Make updated PiTFT Image
   
 Optional Tasks
   - [x] Change Console font
   - [ ] Configure day / con based video playback script
   - [ ] Add "Touch to skip video function for touchscreen displays
   - [ ] Make "Party Mode"
-  - [ ] Make quake3 package
-  - [ ] make doom package
-  - [ ] metasploit framwork? 
+  - [x] Make quake3 package
+  - [x] make doom package
+  - [x] metasploit framwork? 
   - [ ] custom boot logo / image?
   - [ ] dosbox? Windows 3.1?
   - [ ] mesh networking
@@ -35,10 +35,10 @@ Optional Tasks
 __From Scratch Install Steps__
 No image? No problem mon!
 * If you are using a PiTFT+ Download the Adafruit PiTFT+ lite image: https://learn.adafruit.com/adafruit-pitft-3-dot-5-touch-screen-for-raspberry-pi/easy-install
-* If you are using a DToverlay supported image(https://github.com/notro/fbtft/wiki/LCD-Modules): https://downloads.raspberrypi.org/raspbian_lite_latest 
+* If you are using a DToverlay supported screen use: (https://github.com/notro/fbtft/wiki/LCD-Modules): https://downloads.raspberrypi.org/raspbian_lite_latest 
 * Burn it to a sd card
-* log in, connect to a network, update packages "sudo aptitude update && sudo aptitude upgrade"
-* sudo aptitude install git
+* Log in, connect to a network, update packages: sudo aptitude update && sudo aptitude upgrade
+* Install git: sudo aptitude install git
 * git clone https://github.com/lithochasm/PiBadge24.git
 * run PiBadge/config/dev_configure
 * run PiBadge/config/install_software
