@@ -77,6 +77,7 @@ The theme of Defcon this year is "Rise of the Machines" Im thinking of going wit
 * Beyond The Minds Eye
 * 2001
 
+3D Clips from http://www.beeple-crap.com/
 
 ## Defcon / Bsides Random info
 
