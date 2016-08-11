@@ -20,11 +20,11 @@ then
   ## Play some videos
   while true; do
   clear > /dev/tty0
-  omxplayer --fps 24 --no-osd -z --aspect-mode stretch /home/pi/PiBadge24/videos/default.mp4 &
+  omxplayer --fps 24 --no-osd -z --aspect-mode stretch /home/pi/PiBadge24/videos/default.mp4
   clear > /dev/tty0
-  omxplayer --fps 24 --no-osd -z --aspect-mode stretch /home/pi/PiBadge24/videos/DC_Movie.mp4 &
+  omxplayer --fps 24 --no-osd -z --aspect-mode stretch /home/pi/PiBadge24/videos/DC_Movie.mp4
   clear > /dev/tty0
-  omxplayer --fps 24 --no-osd -z --aspect-mode stretch /home/pi/PiBadge24/videos/DC64.mp4 &
+  omxplayer --fps 24 --no-osd -z --aspect-mode stretch /home/pi/PiBadge24/videos/DC64.mp4
   clear > /dev/tty0
   done
   # setterm -cursor on > /dev/tty0
